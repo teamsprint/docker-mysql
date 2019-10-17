@@ -12,9 +12,9 @@ RUN rm -f mysql57-community-release-el7-7.noarch.rpm
 
 RUN yum -y install expect
 
-ADD start-mysql.sh /
-ADD init-pw.sh /
-ADD connect.sh /
+ADD script/init-mysql.sh /
+ADD script/start-mysql.sh /
+ADD script/conn-mysql.sh /
 
 CMD ["/bin/bash"]
 
