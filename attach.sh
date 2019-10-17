@@ -2,5 +2,5 @@
 
 CONTAINER_NAME=mysql
 
-docker exec -it $CONTAINER_NAME /bin/bash
+sudo docker exec -it $CONTAINER_NAME /bin/bash
 
