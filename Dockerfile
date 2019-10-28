@@ -15,6 +15,7 @@ RUN yum -y install expect
 ADD script/init-mysql.sh /
 ADD script/start-mysql.sh /
 ADD script/conn-mysql.sh /
+ADD script/stop-mysql.sh /
 
 CMD ["/bin/bash"]
 
