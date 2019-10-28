@@ -17,6 +17,9 @@ ADD script/start-mysql.sh /
 ADD script/conn-mysql.sh /
 ADD script/stop-mysql.sh /
 
+ADD Dockerfile /
+ADD README.md /
+
 CMD ["/bin/bash"]
 
 # MySQL port

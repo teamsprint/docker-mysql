@@ -37,7 +37,10 @@ run destroy.sh
 
 ./start-mysql.sh (optional; already started by init-mysql.sh)<br/>
 ./conn-mysql.sh (Optional)<br/>
-./stop-mysql.sh (optional)<br/>
+
+# Stop MySQL
+
+./stop-mysql.sh<br/>
 
 # WARNING:
 # You should check if init-mysql.sh has succeeded.
