@@ -30,17 +30,13 @@ run attach.sh
 run destroy.sh
 
 # IMPORTANT: After attach you might to want to to:
-./start-hadoop.sh (HDFS & Yarn)<br/>
+./start-hadoop.sh (Optional: HDFS & Yarn)<br/>
 ./test-hadoop.sh (Optional)<br/>
 
 ./init-mysql.sh (MySQL setting)<br/>
-
-./start-mysql.sh (optional; already started by init-mysql.sh)<br/>
+./start-mysql.sh (Optional; already started by init-mysql.sh)<br/>
 ./conn-mysql.sh (Optional)<br/>
-
-# Stop MySQL
-
-./stop-mysql.sh<br/>
+./stop-mysql.sh (Optional)<br/>
 
 # WARNING:
 # You should check if init-mysql.sh has succeeded.
