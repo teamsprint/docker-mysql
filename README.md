@@ -2,9 +2,6 @@
 
 teamsprint/mysql:5.7
 
-[![DockerPulls](https://img.shields.io/docker/pulls/teamsprint/docker-mysql.svg)](https://registry.hub.docker.com/u/teamsprint/docker-mysql/)
-[![DockerStars](https://img.shields.io/docker/stars/teamsprint/docker-mysql.svg)](https://registry.hub.docker.com/u/teamsprint/docker-mysql/)
-
 # Based on (in a row)
 
 teamsprint/centos:7<br/>
